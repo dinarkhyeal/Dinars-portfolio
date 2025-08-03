@@ -222,17 +222,21 @@ nav {
   }
 }
 
-a.cv-link {
-  background: gold;
+.cv-link {
+  display: inline-block;
+  background-color: gold;
   color: black;
-  padding: 8px 12px;
-  border-radius: 5px;
   font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
-a.cv-link:hover {
-  background: #ffc300;
+.cv-link:hover {
+  background-color: black;
+  color: gold;
+  border: 2px solid gold;
 }
 
 /* Mobile styles for screens less than 600px wide */
