@@ -235,3 +235,32 @@ a.cv-link:hover {
   background: #ffc300;
 }
 
+/* Mobile styles for screens less than 600px wide */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+}
+
